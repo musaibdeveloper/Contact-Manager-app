@@ -1,0 +1,132 @@
+What is React ?
+
+React is a Javascript library for building user interfaces.
+
+React bulids the app and website more attractive and easy maintaine. 
+
+React app are having 4 different basic. 
+1. Components.
+2. JSX
+3. Props
+4. State.
+
+How to set react project in one command. 
+npx create-react-app "Project-Name"
+
+2. method via npm
+
+npm install -g create-react-app
+create-react-app "reactprojectname"
+
+3. React Core Concepts 
+1. Components
+2. JSX
+3. Props
+4. States
+
+
+1.Components are bulid on 3 three things. It is code which can be reuseable. 
+1. HTML
+2. CSS
+3. JavaScript.
+
+There are two ways to create the Components.
+1. Function 
+
+const FIrstComponent = ()> = {
+    return (
+
+    );
+    
+}
+
+export default FIrstComponent
+
+2. Class Components 
+
+class FIrstComponent extends React.Component{
+    render() {
+        return (
+
+        );
+    }
+}
+
+export default FIrstComponent
+
+Props
+
+
+// COmmand to start a new React App
+1. npx create-react-app folderName 
+if u see happy hacking then react folder bangaya nxt ab
+2. cd folderName
+3. code .
+4. In src remove
+App.test.js
+index.css
+logo.svg
+reportWeb.js
+setupTest.js
+5. Now in index.js
+remove 
+import css 
+and
+import reporweb
+
+and reportWEB FUNCTTION() TOOO
+
+
+
+6. Remove Strict Mode from app
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+
+to 
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <App />
+);
+
+
+
+
+
+7. come to app.js
+
+delete all code 
+
+
+8. now type rfce
+
+get the code
+
+now 
+
+
+use <>  do your code </>
+
+
+
+9.
+
+// add this line in settings.json
+
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+yeh line se sida h1 mare tho code aajata har synatxc
+
+
+
+10. AB SE YEH SETUP FOLLOW KARO OK 
+
+
+
+
